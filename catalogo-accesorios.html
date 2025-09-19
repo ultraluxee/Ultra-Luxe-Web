@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo Accesorios - Ultra Luxe</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+body { background-color:#000; color:gold; font-family:'Playfair Display', serif; margin:0; padding:0; }
+header { text-align:center; padding:50px 20px; }
+h1 { font-size:45px; margin:0; background:linear-gradient(90deg,#FFD700,#FFF8DC); -webkit-background-clip:text; -webkit-text-fill-color:transparent; text-shadow:3px 3px 15px #FFD700; animation: shine 3s infinite alternate; }
+@keyframes shine {0%{background-position:0% 50%;}100%{background-position:100% 50%;}}
+.catalogo { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; padding:20px; }
+.producto { border:2px solid gold; border-radius:20px; padding:20px; text-align:center; width:200px; transition: transform 0.5s, background 0.5s, color 0.5s, box-shadow 0.5s; box-shadow:0 0 15px gold; }
+.producto:hover { transform:scale(1.1); background:linear-gradient(135deg,#FFD700,#FFF8DC); color:black; box-shadow:0 0 30px #FFD700; }
+.producto img { width:100%; border-radius:10px; }
+a { text-decoration:none; color:gold; display:inline-block; width:200px; }
+a:hover { color:white; }
+</style>
+</head>
+<body>
+<header>
+<h1>Catálogo Accesorios</h1>
+<p>Complementa tu estilo Ultra Luxe</p>
+<a href="index.html">← Volver a Inicio</a>
+</header>
+
+<div class="catalogo">
+  <a href="gorra1-detalle.html" class="producto"><img src="imagenes/gorra1.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra2-detalle.html" class="producto"><img src="imagenes/gorra2.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra3-detalle.html" class="producto"><img src="imagenes/gorra3.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra4-detalle.html" class="producto"><img src="imagenes/gorra4.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra5-detalle.html" class="producto"><img src="imagenes/gorra5.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra6-detalle.html" class="producto"><img src="imagenes/gorra6.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra7-detalle.html" class="producto"><img src="imagenes/gorra7.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra8-detalle.html" class="producto"><img src="imagenes/gorra8.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra9-detalle.html" class="producto"><img src="imagenes/gorra9.jpg" alt="Gorra"><p>Gorra</p></a>
+  <a href="gorra10-detalle.html" class="producto"><img src="imagenes/gorra10.jpg" alt="Gorra"><p>Gorra</p></a>
+</div>
+</body>
+</html>

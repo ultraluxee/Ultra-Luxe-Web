@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo Playeras Polo - Ultra Luxe</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+body { background-color:#000; color:gold; font-family:'Playfair Display', serif; margin:0; padding:0; }
+header { text-align:center; padding:50px 20px; }
+h1 { font-size:45px; margin:0; background:linear-gradient(90deg,#FFD700,#FFF8DC); -webkit-background-clip:text; -webkit-text-fill-color:transparent; text-shadow:3px 3px 15px #FFD700; animation:shine 3s infinite alternate; }
+@keyframes shine {0%{background-position:0% 50%;}100%{background-position:100% 50%;}}
+.catalogo { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; padding:20px; }
+.producto { border:2px solid gold; border-radius:20px; padding:20px; text-align:center; width:200px; transition: transform 0.5s, background 0.5s, color 0.5s, box-shadow 0.5s; box-shadow:0 0 15px gold; }
+.producto:hover { transform:scale(1.1); background:linear-gradient(135deg,#FFD700,#FFF8DC); color:black; box-shadow:0 0 30px #FFD700; }
+.producto img { width:100%; border-radius:10px; }
+a { text-decoration:none; color:gold; display:inline-block; width:200px; }
+a:hover { color:white; }
+</style>
+</head>
+<body>
+<header>
+<h1>Catálogo Playeras Tipo Polo</h1>
+<p>Estilo clásico y elegante Ultra Luxe</p>
+<a href="index.html">← Volver a Inicio</a>
+</header>
+
+<div class="catalogo">
+  <a href="polo1-detalle.html" class="producto"><img src="imagenes/polo1.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo2-detalle.html" class="producto"><img src="imagenes/polo2.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo3-detalle.html" class="producto"><img src="imagenes/polo3.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo4-detalle.html" class="producto"><img src="imagenes/polo4.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo5-detalle.html" class="producto"><img src="imagenes/polo5.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo6-detalle.html" class="producto"><img src="imagenes/polo6.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo7-detalle.html" class="producto"><img src="imagenes/polo7.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo8-detalle.html" class="producto"><img src="imagenes/polo8.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo9-detalle.html" class="producto"><img src="imagenes/polo9.jpg" alt="Polo"><p>Polo</p></a>
+  <a href="polo10-detalle.html" class="producto"><img src="imagenes/polo10.jpg" alt="Polo"><p>Polo</p></a>
+</div>
+</body>
+</html>
